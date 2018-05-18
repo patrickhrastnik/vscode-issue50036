@@ -1,0 +1,93 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "gulp",
+    "isShellCommand": true,
+    "args": [
+        "--no-color"
+    ],
+    "tasks": [
+        {
+            "taskName": "hon:js:app:build",
+            "args": [],
+            "isBuildCommand": false,
+            "isBackground": false,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
+        },
+        {
+            "taskName": "hon:css:app:build",
+            "args": [],
+            "isBuildCommand": false,
+            "isBackground": false,
+            "problemMatcher": [
+                "$lessCompile"
+            ]
+        },
+        {
+            "taskName": "hon:js:lib:build",
+            "args": [],
+            "isBuildCommand": false,
+            "isBackground": false,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
+        },
+        {
+            "taskName": "hon:css:lib:build",
+            "args": [],
+            "isBuildCommand": false,
+            "isBackground": false,
+            "problemMatcher": [
+                "$lessCompile"
+            ]
+        },
+        {
+            "taskName": "hon:images:build",
+            "args": [],
+            "isBuildCommand": false,
+            "isBackground": false
+        },
+        {
+            "taskName": "hon:fonts:build",
+            "args": [],
+            "isBuildCommand": false,
+            "isBackground": false
+        },
+        {
+            "taskName": "hon:js:doku",
+            "args": [],
+            "isBuildCommand": false,
+            "isBackground": false
+        },
+        {
+            "taskName": "hon:css:doku",
+            "args": [],
+            "isBuildCommand": false,
+            "isBackground": false
+        },
+        {
+            "taskName": "hon:doku",
+            "args": [],
+            "isBuildCommand": false,
+            "isBackground": false
+        },
+        {
+            "taskName": "build",
+            "args": [],
+            "isBuildCommand": true,
+            "isBackground": false,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
+        }
+    ]
+}

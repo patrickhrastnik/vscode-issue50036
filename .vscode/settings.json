@@ -1,0 +1,22 @@
+// Platzieren Sie Ihre Einstellungen in dieser Datei, um Standard- und Benutzereinstellungen zu überschreiben.
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true
+    },
+    "files.exclude": {
+        "node_modules": false,
+        "bower_components": false,
+        "typings": false,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "typescript.tsdk": "./node_modules/typescript/lib"
+}

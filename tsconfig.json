@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es5",
+        "noImplicitAny": false,
+        "alwaysStrict": true,
+        "noImplicitThis": false,
+        "strictNullChecks": true,
+        "allowUnreachableCode": false,
+        "removeComments": false, //zum Testen false, produktiv später true
+        "sourceMap": true,
+        "emitBOM": false,
+        "watch": true,
+        "allowJs": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./src/ts/@types"
+        ],
+        "outFile": "./dist/js/holterOnline.app.js"
+    }
+}

@@ -1,0 +1,17 @@
+/* CSS for Internet Explorer 9 and 10*/
+
+select,
+.dataTable_footer select {
+	padding-right: 10px !important;
+}
+
+select::-ms-expand,
+.dataTable_footer select::-ms-expand {
+	display: block !important;
+}
+
+.toolbar-dropdown::after,
+.filter-select::after,
+.dataTable_footer .select-box::after {
+	display: none !important;
+}

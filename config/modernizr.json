@@ -1,0 +1,31 @@
+{
+  "classPrefix": "",
+  "options": [
+    "addTest",
+    "atRule",
+    "domPrefixes",
+    "hasEvent",
+    "html5shiv",
+    "html5printshiv",
+    "load",
+    "mq",
+    "prefixed",
+    "prefixes",
+    "prefixedCSS",
+    "setClasses",
+    "testAllProps",
+    "testProp",
+    "testStyles"
+  ],
+  "feature-detects": [
+    "cookies",
+    "history",
+    "touchevents", 
+    "eventlistener",
+    "es5/array",
+    "es5/object",
+    "es5/strictmode",
+    "es5/syntax",
+    "test/webanimations"
+  ]
+}
