@@ -88,6 +88,17 @@
                 "$tsc",
                 "$jshint"
             ]
+        },
+        {
+            "taskName": "default",
+            "args": [],
+            "isBuildCommand": false,
+            "isBackground": false,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
         }
     ]
 }

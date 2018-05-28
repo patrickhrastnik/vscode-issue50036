@@ -206,6 +206,11 @@ gulp.task('build', [
 ]);
 
 /**
+ * Default-Task, weil Gulp in der aktuellsten Version einen Default-Task benötigt
+ */
+gulp.task('default', ['build']);
+
+/**
  * Task zur Erstellung der Dokumentationsdateien
  */
 gulp.task('hon:doku', [
